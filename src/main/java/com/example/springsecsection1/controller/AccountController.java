@@ -8,6 +8,7 @@ public class AccountController {
 public static final double piValue =3.14;
     @GetMapping("/myAccount")
     public String getAccountDetails(){
+        System.out.println("Entered for checking merge");
         return "Account Details";
     }
 }
