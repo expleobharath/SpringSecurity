@@ -8,6 +8,7 @@ public class AccountController {
 
     @GetMapping("/myAccount")
     public String getAccountDetails(){
+        System.out.println("Entered in Account details Controller");
         return "Account Details";
     }
 }
